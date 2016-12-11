@@ -1,0 +1,10 @@
+{
+	"name": "paulgoodfield/base-repo-interface",
+	"description": "An interface for implementing the repository pattern in PHP apps",
+	"license": "MIT",
+	"autoload": {
+		"psr-0": {
+			"PaulGoodfield\\BaseRepoInterface": "src"
+		}
+	}
+}
