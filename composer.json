@@ -3,7 +3,7 @@
 	"description": "An interface for implementing the repository pattern in PHP apps",
 	"license": "MIT",
 	"autoload": {
-		"psr-0": {
+		"psr-4": {
 			"PaulGoodfield\\BaseRepoInterface": "src"
 		}
 	}
