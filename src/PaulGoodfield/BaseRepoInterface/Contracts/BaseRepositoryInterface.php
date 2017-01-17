@@ -16,7 +16,7 @@ interface BaseRepositoryInterface {
 
 	public function delete(int $id);
 
-	public function attach(int $id, string $relation, int $relationId, array $additional);
+	public function attach(int $id, string $relation, int $relationId, $additional = []);
 
 	public function detach(int $id, string $relation, int $relationId);
 }
